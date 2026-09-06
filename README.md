@@ -20,11 +20,11 @@ prac_python/
 ## 📝 문제 풀이 규칙
 
 - 파일명은 문제 번호 또는 문제 이름을 기준으로 작성합니다. (예: `연속된숫자의합.py`)
-- 각 풀이 파일 상단에 문제 링크와 간단한 풀이 설명을 주석으로 남깁니다.
+- 각 풀이 파일 상단에 문제 링크와 필요할 경우 간단한 풀이 설명을 주석으로 남깁니다.
 
 ```python
-# 문제: https://school.programmers.co.kr/learn/courses/30/lessons/XXXXXX
-# 풀이 요약: ...
+# https://school.programmers.co.kr/learn/courses/30/lessons/XXXXXX
+# 풀이 요약(필요시): ...
 
 def solution(...):
     ...
