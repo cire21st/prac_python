@@ -1,4 +1,4 @@
-# prac_python
+# python-daily-archive
 
 매일 파이썬 연습을 위한 코드 아카이브입니다. 주로 [프로그래머스](https://programmers.co.kr) 문제 풀이 코드를 정리합니다.
 
