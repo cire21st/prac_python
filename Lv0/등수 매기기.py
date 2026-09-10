@@ -13,11 +13,11 @@ def solution(score):
         #같은 값이면 몇명인지에 따라 공동순위 설정하고 이를 key list로 만들기
         key_list = []
         tie = 0
-        for i in range(len(score_list)):
+        for i in range(len(score_list)): 
             if score_list[i] == score_list[i+1]:
                 tie = tie + 1
-                for j in range(tie):
-                key_list.append(i+1)
+                key_list[i] = i + 1
+                key_list[i+1] = i + 1
                 #tie의 수를 저장해놨다가 그거만큼 더해서 순위를 띄워주고 tie는 그럴떄마다 다시 초기화
         #zip(key,value)로 디셔너리로 만들고 원래 스코어리스트에 있는 값을 바탕으로 순위 값으로 변환, 이를 return
         
